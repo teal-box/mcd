@@ -102,7 +102,7 @@ cas.getToken(apiKey="6a9e3ea0898641429c7e080fbbd407ff", secret="27684a7253644e9b
 # Internet Network-1    10.220.20.0    27    0
 
 # cas.getInternalNetworks()
-file = r"C:\work\McD\InternalNetworks.csv"
+file = r"InternalNetworks.csv"
 inetwork = cas.getInternalNetworks()
 
 d = readCSV(file)
@@ -115,7 +115,7 @@ for item in d:
         print(f"creating {item['name']}...")
         cas.createInternalNetworks(item['name'],item['ipAddress'],item['prefixLength'],item['tunnelId'])
 
-print(cas.getInternalNetworks())
+# print(cas.getInternalNetworks())
 
 
 # print(data)
