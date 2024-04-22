@@ -1,0 +1,7 @@
+name,ipAddress,prefixLength,tunnelId
+Internet Network-1,10.220.20.0,27,0
+Internet Network-2,10.220.30.0,27,0
+Internet Network-3,10.220.40.0,27,0
+Internet Network-4,10.220.50.0,27,0
+Internet Network-5,10.220.60.0,27,0
+Internet Network-6,10.220.70.0,27,0
