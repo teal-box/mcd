@@ -97,7 +97,7 @@ class Umbrella:
 
 
 cas = Umbrella(apiKey="", secret="")
-cas.getToken(apiKey="6a9e3ea0898641429c7e080fbbd407ff", secret="27684a7253644e9b99f1a10949abaa5a")
+cas.getToken(apiKey="xxxxxx", secret="xxxx")
 
 # Internet Network-1    10.220.20.0    27    0
 
